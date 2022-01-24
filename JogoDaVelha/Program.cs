@@ -37,7 +37,7 @@ namespace JogoDaVelha
                     Thread.Sleep(2000);
                 }
 
-                if (escolha > 9)
+                if (escolha > 9 || escolha == 0)
                 {
                     Console.WriteLine("Favor inserir um número de 1 a 9");
                     Console.WriteLine("\n");
